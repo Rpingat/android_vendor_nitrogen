@@ -101,6 +101,15 @@ PRODUCT_COPY_FILES += \
     vendor/nitrogen/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/nitrogen/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions
 
+# Fonts
+PRODUCT_COPY_FILES += \
+    vendor/nitrogen/prebuilt/common/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
+    vendor/nitrogen/prebuilt/common/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/nitrogen/prebuilt/common/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/nitrogen/prebuilt/common/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
+    vendor/nitrogen/prebuilt/common/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
+    vendor/nitrogen/prebuilt/common/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+
 # DU Utils Library
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
