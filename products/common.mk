@@ -66,7 +66,20 @@ PRODUCT_PACKAGES += \
 # Themes
 PRODUCT_PACKAGES += \
     PixelTheme \
-    Stock
+    AuroraTheme \
+    DarkSpringGreenTheme \
+    FuschiaTheme \
+    GenesisTheme \
+    GreenGrassTheme \
+    KingPurpleTheme \
+    MagentaTheme \
+    MandarineTheme \
+    PaleBlueTheme \
+    SexyRedTheme \
+    SkyTheme \
+    Stock \
+    SpotifyTheme \
+    WatermelonTheme \
 
 # Init.d script support
 PRODUCT_COPY_FILES += \
