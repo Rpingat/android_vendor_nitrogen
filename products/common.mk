@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/nitrogen/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/nitrogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Extra packages
 PRODUCT_PACKAGES += \
     DaylightHeaderNitrogen \
@@ -61,7 +65,11 @@ PRODUCT_PACKAGES += \
     NitrogenWallpapers \
     OmniJaws \
     Stk \
-    Terminal
+    Terminal \
+    ViaBrowser \
+    RetroMusicPlayer \
+    SnapdragonCamera \
+    NexusLauncher \
 
 # Themes
 PRODUCT_PACKAGES += \
